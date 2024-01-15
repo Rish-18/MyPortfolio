@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./pf.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<!-- textanimation -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<script src="https://kit.fontawesome.com/a448b633e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- home -->
+    <a name="home"></a>
+    <div class="home_back animate-on-scroll">
+        <div  class="home_background">
+            <div class="home-text">
+                <h1>
+                    Hello, I'm <span class="spn">Girish Parab</span>. <br> I'm <span id="anim"> </span>
+                </h1>
+                <div class="home-button">
+                    <button>
+                        <a href="#project">view my work   <i class="fa-solid fa-arrow-right fa-beat"></i></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- nav bar -->
+    <div class="navbar">
+        <div class="menu-toggle" id="mobile">
+            <span class="hbar"></span>
+            <span class="hbar"></span>
+            <span class="hbar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#home" class="navbar-tab" onclick="changeColor(this)">Home</a></li>
+            <li><a href="#about" class="navbar-tab" onclick="changeColor(this)">About</a></li>
+            <li><a href="#project" class="navbar-tab" onclick="changeColor(this)">Project</a></li>
+            <li><a href="#ctc" class="navbar-tab" onclick="changeColor(this)">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- about -->
+<a name="about"></a>
+<div class="container aboutt">
+        <div class="con animate-on-scroll"><h2>ABOUT</h2></div>
+        <div class="about-line animate-on-scroll"></div>
+        <div>
+
+            <div class="row profile">
+                <div class="col  profile-left">
+                    <div class="leftimg">
+                        <img src="./images/IMG_20230616_171721.jpg" alt="">
+                    </div>
+                    <p>I'm a Full Stack Developer from Mumbai.
+                        I have passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
+                    <div class="profile-button">
+                        <a href="./images/Resume_Girish Parab.pdf"><button>Resume</button></a>
+                        <a href="#ctc"><button>Hire Me</button></a>
+                    </div>    
+                </div>
+                <div class="col profile-right" >
+                    <!-- profile and skills -->
+                    <div  class="bar flex"> <!--bar-->
+                        <div class="bar-fil animate-on-scroll" style="width:90% "> <!--fill bar-->
+                            <div class="tag flex"><b>HTML</b></div> <!--skil-->
+                        </div>
+                        <!-- <span>90%</span>  -->
+                    </div>
+                    <div class="bar flex">
+                        <div class="bar-fil animate-on-scroll" style="width: 90%;">
+                            <div class="tag flex"><b>CSS</b></div>
+                        </div>
+                        <!-- <span>90%</span> -->
+                    </div>
+                    <div class="bar flex">
+                        <div class="bar-fil animate-on-scroll" style="width: 80%">
+                            <div class="tag flex"><b>JavaScript</b></div>
+                        </div>
+                        <!-- <span>80%</span> -->
+                    </div>
+                    <div class="bar flex">
+                        <div class="bar-fil animate-on-scroll" style="width: 70%;" >
+                            <div class="tag flex"><b>React</b></div>
+                        </div>
+                        <!-- <span>70%</span> -->
+                    </div>
+                    <div class="bar flex">
+                        <div class="bar-fil animate-on-scroll" style="width: 60%;">
+                            <div class="tag flex"><b>Angular</b></div>
+                        </div>
+                        <!-- <span>60%</span> -->
+                    </div>
+                    <div class="bar flex">
+                        <div class="bar-fil animate-on-scroll" style="width: 65%;">
+                            <div class="tag flex"><b>Node.js</b></div>
+                        </div>
+                        <!-- <span>65%</span> -->
+                    </div>
+                    <div class="bar flex">
+                        <div class="bar-fil animate-on-scroll" style="width:60% ;">
+                            <div class="tag flex"><b>SQL</b></div>
+                        </div>
+                        <!-- <span>60%</span> -->
+                    </div>
+                    <div class="bar flex">
+                        <div class="bar-fil animate-on-scroll" style="width:70% ;">
+                            <div class="tag flex"><b>Python</b></div>
+                        </div>
+                        <!-- <span>70%</span> -->
+                    </div>
+                </div>
+            </div>    
+        </div>
+</div>
+
+<!-- projects -->
+<a name="project"></a>
+<div class="pbg_color">
+    <div class="container">
+        <div class="pro animate-on-scroll">
+            <h2>Project</h2>
+        </div>
+        <div class="project-line animate-on-scroll"></div>
+        <div class="row">
+            <ul class="d-flex flex-row pro_bar">
+                <li><a href="#all" onclick="toggleSection('all');">All</a></li>
+                <li ><a href="#portfolio"  onclick="toggleSection('portfolio');">Portfolio</a></li>
+                <!-- <li><a href="">Javascript</a></li> -->
+                <li><a href="#react" onclick="toggleSection('react');">React</a></li>
+                <li><a href="#python"  onclick="toggleSection('python');">Python</a></li>
+            </ul>
+        </div>
+        <!-- <div>  cards -->
+            <div id="all" class=" card-section active">
+                <div class="row row-cols-md-1 row-cols-md-2 g-4">
+                    <div class=" proj1 col animate-on-scroll">
+                        <div class="card view view-ninth">
+                            <img height="100%" src="./images/portf.png" class="card-img-top" alt="...">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>PORTFOLIO</h2>
+                                <a href="#" class="info"><button>View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" proj2 col animate-on-scroll">
+                        <div class="card view view-ninth">
+                            <img height="100%" src="https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png" class="card-img-top" alt="...">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>REACT</h2>
+                                <a href="#" class="info"><button>View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj2 col animate-on-scroll">
+                        <div class="card view view-ninth">
+                            <img height="100%" src="https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png" class="card-img-top" alt="...">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>PYTHON</h2>
+                                <a href="#" class="info"><button>View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj3 col animate-on-scroll">
+                        <div class="card view view-ninth">
+                            <img height="100%" src="https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png" class="card-img-top" alt="...">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>PYTHON</h2>
+                                <a href="#" class="info"><button>View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div id="portfolio" class=" card-section">
+                <!-- Content for Portfolio section -->
+                <div class="row  row-col-1 row-cols-md-2 g-4">
+                    <div class="proj1 col animate-on-scroll">
+                        <div class="card view view-ninth">
+                            <img height="100%" src="./images/portf.png" class="card-img-top" alt="...">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>PORTFOLIO</h2>
+                                <a href="#" class="info"><button>View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="react" class="card-section">
+                <div class="row row-col-1 row-cols-md-2 g-4">
+                    <div class=" proj2 col animate-on-scroll">
+                        <div class="card view view-ninth">
+                            <img height="100%" src="https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png" class="card-img-top" alt="...">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>REACT</h2>
+                                <a href="#" class="info"><button>View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="python" class="card-section">
+                <div class="row row-col-1 row-cols-md-2 g-4">
+                    <div class="proj3 col animate-on-scroll">
+                        <div class="card view view-ninth">
+                            <img height="100%" src="https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png" class="card-img-top" alt="...">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>PYTHON</h2>
+                                <a href="#" class="info"><button>View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj3 col animate-on-scroll">
+                        <div class="card view view-ninth">
+                            <img height="100%" src="https://i.pinimg.com/originals/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2.png" class="card-img-top" alt="...">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>PYTHON</h2>
+                                <a href="#" class="info"><button>View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<!-- contact -->
+<a name="ctc"></a>
+<div class="contact-back">
+    <!--svg-->
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+        <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+    </svg>
+    <div class="container">
+        <div class="contact ">
+            <div class="contct animate-on-scroll"><h2>CONTACT</h2></div>
+            <div class="cline animate-on-scroll"></div>
+            <div>
+                <p>Have a question or want to work together?</p>
+            </div>
+            <div class="popout animate-on-scroll">
+                <form action="https://formspree.io/f/mjvnvwpv" class="flexc" method="post" name="myform" onsubmit="return validateform()">
+                    <div id="iname">
+                        <input type="text" name="fname" placeholder="Name" id="iname">
+                        <span class="formerror"> </span>
+                    </div>
+                    <div id="iemail">
+                        <input type="email" name="femail" placeholder="Enter email" id="iemail" >
+                        <span class="formerror"> </span>
+                    </div>
+                        <textarea type="text" name="fmsg" placeholder="Your Message" ></textarea>
+                        <button id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<footer >
+    <div class="card-footer  ">
+        <a href="#home"><i id="svgtop" class="fa-solid fa-angles-up fa-bounce fa-2xl"></i></a><br>
+        <a href="linkedin.com/in/girish-parab-1959ba2a6"><img class="logo1 animate-on-scroll" src="./images/linkedin-svgrepo-com.svg" alt=""></a>
+        <img src="./" alt="">
+        <a href="https://github.com/Rish-18"><img class="logo2 animate-on-scroll" src="./images/github-square-svgrepo-com.svg" alt=""></a>
+        <img src="./" alt="">
+        <a href=""><img class="logo3 animate-on-scroll" src="./images/img new.png" alt=""></a>
+        <br><br><p>Thank you for visiting my Portfolio <br> Girish&copy;Copyright</p>
+    </div>
+</footer>
+
+<script src="./ham.js"></script>
+
+</body>
+</html>
+
